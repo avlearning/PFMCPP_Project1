@@ -52,85 +52,85 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       knob
+//  action 1:   rotates clockwise
+knob.rotateCw();
+//  action 2:   rotates counterclockwise
+knob.rotateAcw();
+//  action 3:  when pushed, stops rotating/locks in place
+knob.lockInPlace();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       monitor
+//  action 1:   turns on/off
+monitor.turn();
+//  action 2:   adjusts brightness
+monitor.adjustBrightness();
+//  action 3:   adjusts refresh rate
+monitor.adjustRefreshRate();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       fork
+//  action 1:   stabs
+fork.stab();
+//  action 2:   bends
+fork.bend();
+//  action 3:   melts
+fork.melt();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       mixer
+//  action 1:   adjusts channel  volume with a fader
+mixer.adjustFaderVolume();
+//  action 2:   enables EQ
+mixer.enableEq();
+//  action 3:   adjusts compressor trheshold
+mixer.adjustCompThreshold(); 
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       car
+//  action 1:   turns
+car.turn();
+//  action 2:   accelerates
+car.accelerate();
+//  action 3:   ejects the passenger seat
+car.ejectPassengerSeat(); 
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       app
+//  action 1:   plays sound
+app.playSound();
+//  action 2:   displays .png image
+app.drawPng();
+//  action 3:   crashes to desktop
+app.crashToDesktop(); 
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       air compressor
+//  action 1:   releases compressed air via the pistol
+airComp.fire();
+//  action 2:   adjusts output pressure
+airComp.adjustOutputPressure();
+//  action 3:   adjusts maximum pressure inside the main tank
+airComp.adjustTankPressure(); 
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       microphone
+//  action 1:   records audio
+microphone.recordAudio();
+//  action 2:   produces noise
+microphone.produceNoise();
+//  action 3:   adjusts preamp gain
+microphone.adjustPreampGain();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       eq
+//  action 1:   adjust band frequency
+eq.adjustBand1Freq();
+//  action 2:   adjust band q
+eq.adjustBand1Q();
+//  action 3:   adjust band gain
+eq.adjustBand1Gain ();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       reverb
+//  action 1:   adjust size
+reverb.adjustSize();
+//  action 2:   adjust rt60
+reverb.adjustRt60();
+//  action 3:   adjust predelay
+reverb.adjustPredelay();
 
 
 #endif
