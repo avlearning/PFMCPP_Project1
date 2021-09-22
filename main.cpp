@@ -80,7 +80,7 @@ fork.melt();
 //  action 1:   adjusts channel  volume with a fader
 mixer.adjustFaderVolume();
 //  action 2:   enables EQ
-mixer.enable();
+mixer.enableEq();
 //  action 3:   adjusts compressor trheshold
 mixer.adjustCompThreshold(); 
 //  5)
@@ -130,7 +130,7 @@ reverb.adjustSize();
 //  action 2:   adjust rt60
 reverb.adjustRt60();
 //  action 3:   adjust predelay
- reverb.adjustPredelay();
+reverb.adjustPredelay();
 
 
 #endif
