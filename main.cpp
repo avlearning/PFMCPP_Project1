@@ -57,16 +57,16 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 knob.rotateCw();
 //  action 2:   rotates counterclockwise
 knob.rotateAcw();
-//  action 3:  when pushed, triggers a switch
-knob.switch();
+//  action 3:  when pushed, stops rotating/locks in place
+knob.lockInPlace();
 //  2)
 //  Noun:       monitor
 //  action 1:   turns on/off
-monitor.switch();
+monitor.turn();
 //  action 2:   adjusts brightness
-monitor.brightness();
+monitor.adjustBrightness();
 //  action 3:   adjusts refresh rate
-monitor.refreshRate();
+monitor.adjustRefreshRate();
 //  3)
 //  Noun:       fork
 //  action 1:   stabs
@@ -78,11 +78,11 @@ fork.melt();
 //  4)
 //  Noun:       mixer
 //  action 1:   adjusts channel  volume with a fader
-mixer.faderVolume();
+mixer.adjustFaderVolume();
 //  action 2:   enables EQ
-mixer.eqSwitch();
+mixer.enable();
 //  action 3:   adjusts compressor trheshold
-mixer.compThreshold(); 
+mixer.adjustCompThreshold(); 
 //  5)
 //  Noun:       car
 //  action 1:   turns
@@ -90,7 +90,7 @@ car.turn();
 //  action 2:   accelerates
 car.accelerate();
 //  action 3:   ejects the passenger seat
-car.ejectoSeatoCuz(); 
+car.ejectPassengerSeat(); 
 //  6)
 //  Noun:       app
 //  action 1:   plays sound
@@ -104,33 +104,33 @@ app.crashToDesktop();
 //  action 1:   releases compressed air via the pistol
 airComp.fire();
 //  action 2:   adjusts output pressure
-airComp.outputPressure();
+airComp.adjustOutputPressure();
 //  action 3:   adjusts maximum pressure inside the main tank
-airComp.tankPressure(); 
+airComp.adjustTankPressure(); 
 //  8)
 //  Noun:       microphone
 //  action 1:   records audio
-microphone.record();
+microphone.recordAudio();
 //  action 2:   produces noise
-microphone.addNoise();
-//  action 3:   automatically adjusts preamp gain
-microphone.autoGain();
+microphone.produceNoise();
+//  action 3:   adjusts preamp gain
+microphone.adjustPreampGain();
 //  9)
 //  Noun:       eq
 //  action 1:   adjust band frequency
-eq.band1Freq();
+eq.adjustBand1Freq();
 //  action 2:   adjust band q
-eq.band1Q();
+eq.adjustBand1Q();
 //  action 3:   adjust band gain
-eq.band1Gain ();
+eq.adjustBand1Gain ();
 //  10)
 //  Noun:       reverb
 //  action 1:   adjust size
-reverb.size();
+reverb.adjustSize();
 //  action 2:   adjust rt60
-reverb.rt60();
+reverb.adjustRt60();
 //  action 3:   adjust predelay
- reverb.predelay();
+ reverb.adjustPredelay();
 
 
 #endif
